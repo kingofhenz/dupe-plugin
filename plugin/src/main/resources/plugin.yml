@@ -1,0 +1,5 @@
+name: Plugin
+version: 1
+main: me.henry.plugin.Plugin
+api-version: 1.19
+description: minecraft plugin
