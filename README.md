@@ -1,5 +1,5 @@
 # kingofhenz#3817
-https://hub.spigotmc.org/javadocs/bukkit/ documentation so i dont forget
+https://hub.spigotmc.org/javadocs/bukkit/ documentation so i dont forget.
 WORKING!!!
 /dupe
 /heal
