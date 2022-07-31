@@ -3,3 +3,17 @@ version: 1
 main: me.henry.plugin.Plugin
 api-version: 1.19
 description: minecraft plugin
+commands:
+  heal:
+    description: heals player to max health
+    usage: /<command>
+    aliases: heal
+  feed:
+    description: makes players saturation 20
+    usage: /<command>
+    aliases: feed
+  dupe:
+    description: dupes item
+    usage: /<command>
+    aliases: [dupe, d]
+
