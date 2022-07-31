@@ -5,6 +5,7 @@ import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 
+
 public class TotCommands implements CommandExecutor {
 
     @Override
@@ -24,12 +25,11 @@ public class TotCommands implements CommandExecutor {
                 Player player = (Player) sender;
                 player.getInventory().addItem(player.getItemInHand());
             }
-
-            if (cmd.getName().equalsIgnoreCase("feed")){
-                if (sender instanceof Player){
-                    Player player = (Player) sender;
-                    player.setSaturation(20);
-                }
+        }
+        if (cmd.getName().equalsIgnoreCase("feed")){
+            if (sender instanceof Player){
+                Player player = (Player) sender;
+                player.setSaturation(20);
             }
         }
         return true;
