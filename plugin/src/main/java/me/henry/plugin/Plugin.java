@@ -13,9 +13,5 @@ import org.bukkit.command.CommandSender;
 
 public final class Plugin extends JavaPlugin implements Listener {
  @Override
-    public boolean onCommand(CommandSender sender,Command cmd,String label,  String[] args) {
-        if (sender instanceof Player){
-            Player player = (Player) sender;
-            
-        }
+
 }
