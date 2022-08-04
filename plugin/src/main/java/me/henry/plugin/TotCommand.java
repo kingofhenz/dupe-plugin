@@ -26,12 +26,6 @@ public class TotCommands implements CommandExecutor {
                 player.getInventory().addItem(player.getItemInHand());
             }
         }
-        if (cmd.getName().equalsIgnoreCase("feed")){
-            if (sender instanceof Player){
-                Player player = (Player) sender;
-                player.setSaturation(20);
-            }
-        }
         return true;
     }
 }
