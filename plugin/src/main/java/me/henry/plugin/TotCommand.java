@@ -13,13 +13,6 @@ public class TotCommands implements CommandExecutor {
         if (sender instanceof Player){
             Player player = (Player) sender;
         }
-        if (cmd.getName().equalsIgnoreCase("heal")){
-            if (sender instanceof Player){
-                Player player = (Player) sender;
-                player.setHealth(20);
-            }
-
-        }
         if (cmd.getName().equalsIgnoreCase("dupe")){
             if (sender instanceof Player){
                 Player player = (Player) sender;
